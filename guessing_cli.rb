@@ -20,10 +20,7 @@ def run_guessing_game
     break if guess == "exit"
     elsif rn != guess && guess != "exit"
       puts "The computer guessed #{rn}."
-      
-    
-    end 
-    
+    end
   end
   puts "Goodbye!"
 end
